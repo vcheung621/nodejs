@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Node crash course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcheung621/nodejs.git"
+  },
+  "author": "Vincent Cheung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcheung621/nodejs/issues"
+  },
+  "homepage": "https://github.com/vcheung621/nodejs#readme",
+  "dependencies": {
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
