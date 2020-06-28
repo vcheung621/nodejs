@@ -4,13 +4,13 @@ const fs = require('fs');
 
 const server = http.createServer((req, res) => {
 	//console.log(req.url);
-	// if(req.url == '/') {
+	// if(req.url === '/') {
 	// 	res.writeHead(200, { 'Content-Type': 'text/html'});
 	// 	res.end('<h1>Home</h1>');
 	// }	
 	
 
-	// if(req.url == '/') {
+	// if(req.url === '/') {
 	// 	fs.readFile(path.join(__dirname, 'public', 'index.html'), (err, content) => {
 	// 		if (err) throw err;
 	// 		res.writeHead(200, { 'Content-Type': 'text/html'});
@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
 	// 	})		
 	// }
 
-	// if(req.url == '/about') {
+	// if(req.url === '/about') {
 	// 	fs.readFile(path.join(__dirname, 'public', 'about.html'), (err, content) => {
 	// 		if (err) throw err;
 	// 		res.writeHead(200, { 'Content-Type': 'text/html'});
@@ -29,7 +29,7 @@ const server = http.createServer((req, res) => {
 	// api return json content
 	// for rest-api, micro services (you could do it just with node)
 	// you probably would use it with Express 
-	// if(req.url == '/api/users') {
+	// if(req.url === '/api/users') {
 	// 	const users = [
 	// 		{ name: 'Bob Smith', age: 40 },
 	// 		{ name: 'John Doe', age: 30 }
